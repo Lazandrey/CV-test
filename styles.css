@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  transition: 3s ease-in-out;
+}
+h1:hover {
+  color: red;
+  scale: 1.5;
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  /* all: unset; */
+  /* margin-top: 2rem;
+  margin-left: 2rem; */
+  padding: 0.4rem 0.8rem;
+  border: 1px solid black;
+  background-color: rgb(247, 197, 131);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 1s;
+}
+button:hover {
+  background-color: rgb(156, 120, 74);
+  scale: 1.3;
+  margin-top: 1rem;
+}
+
+button:active {
+  background-color: blueviolet;
+  scale: 0.99;
+}
+button:focus {
+  background-color: cadetblue;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 1rem 10rem;
+  background-color: rgb(146, 176, 176);
+  gap: 1rem;
+}
+.img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border: 2px solid greenyellow;
+
+  border-radius: 50%;
+  transition: 3s ease-in-out;
+}
+.img:hover {
+  border-radius: 5%;
+}
+.About-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+.skils {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  width: 100%;
+}
+.skill-li {
+  border: 1px solid lightgrey;
+  border-radius: 0.1rem;
+  padding: 0.1rem 1rem;
+  width: 8rem;
+  text-align: center;
+  transition: 1s;
+  box-shadow: inset 0 0 0 0 bisque;
+}
+.skill-li:hover {
+  /* background-color: bisque; */
+  color: rgb(146, 176, 176);
+  box-shadow: inset 8rem 0 0 0 bisque;
+  font-weight: bolder;
+}
+.skils-ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  gap: 1rem;
+}
+.contacts-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+}
+.contacts-li {
+  border: 1px solid lightgrey;
+  border-radius: 0.1rem;
+  padding: 0.1rem 1rem;
+  width: 15rem;
+  text-align: center;
+  transition: 1s;
+  box-shadow: inset 0 0 0 0 bisque;
+}
+.contacts-li:hover {
+  /* background-color: bisque; */
+  color: rgb(146, 176, 176);
+  box-shadow: inset 15rem 0 0 0 bisque;
+  font-weight: bolder;
+}
+.workexp-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.workex-ul {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.workex-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+.workex-li:hover {
+  font-weight: bolder;
+}
